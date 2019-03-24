@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { getUserWorks } from '../../redux/actions/actions';
+import { Container, Row, Col } from 'react-bootstrap';
+import './user_page.css';
 
 const mapStateToProps = (state) => {
     return {
@@ -27,7 +29,7 @@ class UserPage extends Component {
         for (let i = 0; i < _len; i++) {
             _link = '/' + this.props.match.params.id + '/' + this.props.works_address[i].id;
             links_list.push(
-                <div key={i} >
+                <div key={i} className='linkto_vis' >
                     <a href={_link}>{this.props.works_address[i].description}</a>
                 </div>
             );
@@ -39,10 +41,16 @@ class UserPage extends Component {
         if (this.state.page_found) {
             return (
                 <div>
-                    <div>Page of {this.props.match.params.id}</div>
-                    <div>
-                        {this.showLinkToVisualization()}
-                    </div>
+                    <Container>
+                        <Row>
+                            <Col md={{ span: 10, offset: 1 }}>
+                                <div>Works of <a href={this.props.match.url}>{this.props.match.params.id}</a></div>
+                                <div>
+                                    {this.showLinkToVisualization()}
+                                </div>
+                            </Col>
+                        </Row>
+                    </Container>
                 </div>
             );
         } else {

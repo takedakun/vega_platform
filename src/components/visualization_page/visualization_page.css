@@ -1,0 +1,17 @@
+.vis_title {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.file_name {
+    color: gray;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.file_description {
+    border: 1px solid gray;
+    width: fit-content;
+    height: fit-content;
+    padding: 30px;
+}

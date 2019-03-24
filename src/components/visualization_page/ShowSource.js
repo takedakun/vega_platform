@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './visualization_page.css';
 const ReactMarkdown = require('react-markdown');
 
 export default class Visualization extends Component {
@@ -15,10 +16,12 @@ export default class Visualization extends Component {
         for (let file_name in this.props['files_info']) {
             if (file_name !== 'README.md' && file_name[0] !== '.') {
                 source_code_list.push(
-                    <div className='file_description'>
-                        <div className='file_name' key={key_id}>{file_name}</div>
-                        <div className='source_code'>
-                            <pre>{this.props['files_info'][file_name].content}</pre>
+                    <div>
+                        <div className='file_name' key={key_id}>#{file_name}</div>
+                        <div className='file_description'>
+                            <div className='source_code'>
+                                <pre>{this.props['files_info'][file_name].content}</pre>
+                            </div>
                         </div>
                     </div>
                 );

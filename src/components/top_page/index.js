@@ -32,7 +32,7 @@ export default class TopPage extends Component {
                                     <a href='http://localhost:3000/takedakun/2651e3789d2cbd6ecbd963bf19216eec'>http://localhost:3000/takedakun/2651e3789d2cbd6ecbd963bf19216eec</a>
                                 </p>
                                 <p>
-                                    If you want to watch my works, access this.
+                                    If you want to watch works of a user, access this.
                                 </p>
                                 <p>
                                     <a href='http://localhost:3000/takedakun/'>http://localhost:3000/takedakun/</a>
@@ -51,7 +51,9 @@ export default class TopPage extends Component {
                             <div className='self-introduction'>Self introduction</div>
                             <div className='explanation'>
                                 <p>
-
+                                    Hi, I'm Ryoto Takeda, an undergraduate student of computer science at the University of Tokyo, Japan. <br />
+                                    I would like to contribute to the construction of a platform to share the visualization written in Vega. <br />
+                                    Arigato!
                                 </p>
                             </div>
                         </Col>

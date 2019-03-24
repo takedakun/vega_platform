@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-//import * as vega_embed from 'vega-embed';
 import * as vega from 'vega';
-//const vega_lite = require('vega-lite');
+import './visualization_page.css';
 
 export default class Visualization extends Component {
     componentDidMount() {
@@ -35,7 +34,6 @@ export default class Visualization extends Component {
     renderVisualization() {
         return (
             <div>
-                <div>Visualization</div>
                 <div className='visualization_container'>
                     <div ref={(c) => { this.vis = c }}></div>
                 </div>
