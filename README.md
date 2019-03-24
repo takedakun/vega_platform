@@ -1,5 +1,5 @@
 # vega_platform
-Platform for sharing visualization in Vega.
+Platform for sharing visualization in Vega. This platform is powered by React.js, powerful front-end javascript library.
 
 ## How to move this platform locally.
 Enter the following command on the command line.
