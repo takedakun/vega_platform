@@ -1,0 +1,32 @@
+.top_bar {
+    background-color: #325;
+}
+
+.navbar-light .navbar-brand {
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+    display: block;
+}
+
+.welcome {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.explanation {
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.system-introduction {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.self-introduction {
+    font-weight: bold;
+    font-size: 30px;
+}
