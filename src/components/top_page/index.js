@@ -7,19 +7,19 @@ export default class TopPage extends Component {
         return (
             <div>
                 <Navbar className='top_bar'>
-                    <Navbar.Brand >Vega Platform</Navbar.Brand>
+                    <Navbar.Brand >Simple viewer of Vega</Navbar.Brand>
                 </Navbar>
                 <Container>
                     <Row>
                         <Col>
                             <div className='welcome'>
-                                Welcome to Vega Platform.
+                                Simple viewer of Vega like bl.ocks.org
                             </div>
                             <div className='explanation'>
                                 <p>
-                                    Vega Platform is simple viewer for sharing code written in Vega.js hosted on GitHub Gist. <br />
+                                    This is simple viewer for sharing code written in Vega.js hosted on GitHub Gist. <br />
                                     This is prototype of the platform for sharing Vega.js which is task in Google Summer of Code.<br />
-                                    System is similar to bl.ock.org. <br />
+                                    System is similar to bl.ocks.org <br />
                                     For example, if your Gist URL is
                                 </p>
                                 <p>
@@ -40,20 +40,6 @@ export default class TopPage extends Component {
                                 <p>
                                     You only have to upload Vega.js code named 'index.vega.json' to Gist. This file is used to visualize your Vega code. <br />
                                     In addition to that,  if you upload 'READEME.md' file, it is diplayed under the vislualization.
-                                </p>
-                            </div>
-                            <div className='system-introduction'>System Explanation</div>
-                            <div className='explanation'>
-                                <p>
-                                    I explain the details of this system in my github repository. Please access <a href='https://github.com/takedakun/vega_platform'>here</a>.
-                                </p>
-                            </div>
-                            <div className='self-introduction'>Self introduction</div>
-                            <div className='explanation'>
-                                <p>
-                                    Hi, I'm Ryoto Takeda, an undergraduate student of computer science at the University of Tokyo, Japan. <br />
-                                    I would like to contribute to the construction of a platform to share the visualization written in Vega. <br />
-                                    Arigato!
                                 </p>
                             </div>
                         </Col>
