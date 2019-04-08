@@ -1,4 +1,4 @@
-# Practice of developing vega_platform
+# Practice of developing vega sharing platform
 Simple viewer of Vega for practice of developing platform for sharing visualization in Vega. This viewer is powered by React.js, powerful front-end javascript library. \
 System is similar to bl.ock.org, but it does not require Special web knowledge. You only have to know Vega syntax.
 
